@@ -6,7 +6,7 @@ import { Todo } from "./types";
 function App() {
     const [ todoList, setTodoList ] = useState<Todo[]>([]);
     const todoAddHandler = (text: string) => {
-        setTodoList([{ id: Math.random().toString(), text: text }]);
+        setTodoList(prevTodos => [ ...prevTodos, { id: Math.random().toString(), text: text }]);
     }
 
     return (
