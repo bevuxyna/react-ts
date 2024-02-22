@@ -6,7 +6,7 @@ An application from the Udemy course [Understanding TypeScript](https://www.udem
 
 Clone a repository
 ```sh
-gh repo clone bevuxyna/drag-drop-project
+gh repo clone bevuxyna/react-ts
 ```
 
 Install the dependencies
